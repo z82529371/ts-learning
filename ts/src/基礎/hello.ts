@@ -1,0 +1,15 @@
+function sayHello(person: string) {
+  return "Hello, " + person;
+}
+
+let user = "Tom";
+console.log(sayHello(user));
+
+let isDone: boolean = false;
+
+let dexLiteral: number = 6;
+let hexLiteral: number = 0xf00d;
+let binaryLiteral: number = 0b1010;
+let octalLiteral: number = 0o744;
+let notANumber: number = NaN;
+let infinityNumber: number = Infinity;
